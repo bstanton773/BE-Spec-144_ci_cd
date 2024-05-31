@@ -1,0 +1,13 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.defaultInterpreterPath": "../venv/Scripts/python.exe", // Set this to the Python executable in your venv
+    "python.envFile": "${workspaceFolder}/.env"
+}
