@@ -20,7 +20,7 @@ def add():
     data = request.json
     num1 = data.get('num1', 0)
     num2 = data.get('num2', 0)
-    result = num1 + num2 + 0
+    result = num1 + num2 + 10
     return {'result': result}
 
 
